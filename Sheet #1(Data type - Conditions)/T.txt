@@ -1,0 +1,6 @@
+x = input().split()
+y = [int(i) for i in x]
+x = y.copy()
+x.sort()
+print(str(x[0]) + "\n" + str(x[1]) + "\n" + str(x[2])+"\n")
+print(str(y[0]) + "\n" + str(y[1]) + "\n" + str(y[2]))

@@ -1,0 +1,12 @@
+import math    
+ 
+a=input()
+ 
+if a>='a' and a<='z':
+    print("ALPHA")
+    print("IS SMALL")
+elif a>='A' and a<='Z':
+    print("ALPHA")
+    print("IS CAPITAL")
+else:
+    print("IS DIGIT")  

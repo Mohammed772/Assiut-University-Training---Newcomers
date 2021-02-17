@@ -1,0 +1,49 @@
+#without math lib
+a= (input().split())
+ 
+l1 = float(a[0])
+r1 = float(a[1])
+l2 = float(a[2])
+r2 = float(a[3])
+f=0
+if r1>=l2 and r2>=l1 :
+    f=1 
+    if l1<l2 :
+        a=l2
+    else:
+        a=l1
+    if r1<r2:
+        b=r1
+    else:
+        b=r2
+elif l1<=r2 and l2<=r1:
+    f=1
+    if l1>l2:
+        a=l1
+    else:
+        a=l2
+    if r1>r2:
+        b=r2
+    else:
+        b=r1
+else:
+    f=0
+ 
+if f==1:
+    print(int(a),int(b))
+else:
+    print("-1")
+
+
+#with math lib
+import math
+y = [int(i) for i in input().split()]
+N1 = y[0]
+E1 = y[1]
+N2 = y[2]
+E2 = y[3]
+ 
+if(max(N1,N2)>min(E1,E2)): print(-1)
+else: print(max(N1,N2),min(E1,E2))
+
+

@@ -1,0 +1,22 @@
+import math    
+ 
+a=input()
+n=eval(a)  
+print(int(n))
+
+
+#without eval()
+
+x = input()
+if '+' in x:
+    y, z = x.split("+")
+    print(int(y) + int(z))
+elif '-' in x:
+    y, z = x.split("-")
+    print(int(y) - int(z))
+elif '*' in x:
+    y, z = x.split("*")
+    print(int(y) * int(z))
+elif '/' in x:
+    y, z = x.split("/")
+    print(int(int(y) / int(z)))

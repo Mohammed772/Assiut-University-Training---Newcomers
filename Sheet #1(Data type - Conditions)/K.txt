@@ -1,0 +1,18 @@
+import math    
+ 
+a,b,c=input().split()
+m=int(a)
+n=int(b)
+l=int(c)
+min=m
+max=m
+ 
+if min>=n:
+    min=n
+if min>=l:
+    min=l
+if max<=n:
+    max=n
+if max<=l:
+    max=l
+print(min,max)  

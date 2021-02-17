@@ -1,0 +1,6 @@
+a,b,c,d,f=input().split()
+print(a)
+print(b)
+print(c)
+print(d)
+print(f)

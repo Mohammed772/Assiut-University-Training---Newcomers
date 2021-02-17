@@ -1,0 +1,9 @@
+x,y=input().split()
+a=int(x)
+b=int(y)
+c=a + b
+d=a*b
+e=a-b
+print("{} + {} = {}".format(a,b,c) )
+print("{} * {} = {}".format(a,b,d) )
+print("{} - {} = {}".format(a,b,e) )

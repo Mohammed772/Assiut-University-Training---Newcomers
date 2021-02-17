@@ -1,0 +1,7 @@
+a,b,c,e=input().split()
+a=int(a)
+b=int(b)
+c=int(c)
+e=int(e)
+d=(a*b*c*e)%100
+print("%02d"%(d))

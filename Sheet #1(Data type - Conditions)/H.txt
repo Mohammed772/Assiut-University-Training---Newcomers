@@ -1,0 +1,18 @@
+import math    
+ 
+a,b=input().split()
+m=int(a)
+n=int(b)
+c=m/n
+x=c
+ 
+print("floor %d / %d = %d" %(m,n,int(c)))
+if c==1:
+    print("ceil %d / %d = %d" %(m,n,int(c)))
+else:
+    print("ceil %d / %d = %d" %(m,n,int(c)+1))
+if c-int(c) >= 0.5:
+        c+=1
+        print("round %d / %d = %d" %(m,n,int(c)))
+else:
+        print("round %d / %d = %d" %(m,n,int(c)))

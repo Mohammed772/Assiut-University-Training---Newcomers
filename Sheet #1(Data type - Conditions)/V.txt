@@ -1,0 +1,17 @@
+x = input().split()
+s = x[1]
+if s == '=':
+    if int(x[0]) == int(x[2]):
+        print("Right")
+    else:
+        print("Wrong")
+elif s == '>':
+    if int(x[0]) > int(x[2]):
+        print("Right")
+    else:
+        print("Wrong")
+elif s == '<':
+    if int(x[0]) < int(x[2]):
+        print("Right")
+    else:
+        print("Wrong")
